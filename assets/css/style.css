@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    align-items: inherit;
 }
 
 .header {
@@ -48,15 +49,18 @@ a {
 
 p {
     font-size: 16px;
+    align-self:center;
 }
 
 .hero {
-    max-height: 800px;
-    max-width: 100%;
+    height: 800px;
+    width: 100%;
     margin-bottom: 25px;
-    background-image: url("./images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    max-height: 1100;
+    max-width: 900;
 }
 
 .float-left {
@@ -74,6 +78,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
 
 .benefits {
     margin-right: 20px;
