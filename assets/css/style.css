@@ -51,6 +51,7 @@ p {
     font-size: 16px;
     align-self:center;
 }
+/*--changed size in photoshop,then added max-height max-width--*/
 
 .hero {
     height: 800px;
